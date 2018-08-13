@@ -75,7 +75,6 @@ PRODUCT_COPY_FILES += \
     vendor/mediatek/harmony/proprietary/vendor/firmware/WMT_SOC.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/WMT_SOC.cfg \
     vendor/mediatek/harmony/proprietary/vendor/firmware/catcher_filter_1_wg_n.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/catcher_filter_1_wg_n.bin \
     vendor/mediatek/harmony/proprietary/vendor/firmware/modem_1_wg_n.img:$(TARGET_COPY_OUT_VENDOR)/firmware/modem_1_wg_n.img \
-    vendor/mediatek/harmony/proprietary/vendor/lib/drm/libdrmwvmplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/drm/libdrmwvmplugin.so \
     vendor/mediatek/harmony/proprietary/vendor/lib/egl/egl.cfg:$(TARGET_COPY_OUT_VENDOR)/lib/egl/egl.cfg \
     vendor/mediatek/harmony/proprietary/vendor/lib/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_mali.so \
     vendor/mediatek/harmony/proprietary/vendor/lib/hw/audio.primary.mt6580.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.mt6580.so \
@@ -85,9 +84,7 @@ PRODUCT_COPY_FILES += \
     vendor/mediatek/harmony/proprietary/vendor/lib/hw/memtrack.mt6580.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/memtrack.mt6580.so \
     vendor/mediatek/harmony/proprietary/vendor/lib/hw/sensors.vendor.mt6580.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.vendor.mt6580.so \
     vendor/mediatek/harmony/proprietary/vendor/lib/lib3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.so \
-    vendor/mediatek/harmony/proprietary/vendor/lib/libAGifEncoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libAGifEncoder.so \
     vendor/mediatek/harmony/proprietary/vendor/lib/libClearMotionFW.so:$(TARGET_COPY_OUT_VENDOR)/lib/libClearMotionFW.so \
-    vendor/mediatek/harmony/proprietary/vendor/lib/libGdmaScalerPipe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libGdmaScalerPipe.so \
     vendor/mediatek/harmony/proprietary/vendor/lib/libJpgDecPipe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libJpgDecPipe.so \
     vendor/mediatek/harmony/proprietary/vendor/lib/libJpgEncPipe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libJpgEncPipe.so \
     vendor/mediatek/harmony/proprietary/vendor/lib/libMtkOmxAdpcmDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxAdpcmDec.so \
@@ -102,10 +99,7 @@ PRODUCT_COPY_FILES += \
     vendor/mediatek/harmony/proprietary/vendor/lib/libMtkOmxVdecEx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxVdecEx.so \
     vendor/mediatek/harmony/proprietary/vendor/lib/libMtkOmxVenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxVenc.so \
     vendor/mediatek/harmony/proprietary/vendor/lib/libMtkOmxVorbisEnc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxVorbisEnc.so \
-    vendor/mediatek/harmony/proprietary/vendor/lib/libMtkVideoTranscoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkVideoTranscoder.so \
-    vendor/mediatek/harmony/proprietary/vendor/lib/libOpenMAXAL.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenMAXAL.so \
     vendor/mediatek/harmony/proprietary/vendor/lib/libSwJpgCodec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSwJpgCodec.so \
-    vendor/mediatek/harmony/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libWVStreamControlAPI_L3.so \
     vendor/mediatek/harmony/proprietary/vendor/lib/libaed.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaed.so \
     vendor/mediatek/harmony/proprietary/vendor/lib/libaudiocompensationfilter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiocompensationfilter.so \
     vendor/mediatek/harmony/proprietary/vendor/lib/libaudiocomponentengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiocomponentengine.so \
@@ -116,7 +110,6 @@ PRODUCT_COPY_FILES += \
     vendor/mediatek/harmony/proprietary/vendor/lib/libblisrc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libblisrc.so \
     vendor/mediatek/harmony/proprietary/vendor/lib/libblisrc32.so:$(TARGET_COPY_OUT_VENDOR)/lib/libblisrc32.so \
     vendor/mediatek/harmony/proprietary/vendor/lib/libbluetooth_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_mtk.so \
-    vendor/mediatek/harmony/proprietary/vendor/lib/libbluetoothdrv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetoothdrv.so \
     vendor/mediatek/harmony/proprietary/vendor/lib/libbwc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbwc.so \
     vendor/mediatek/harmony/proprietary/vendor/lib/libcam.camadapter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.camadapter.so \
     vendor/mediatek/harmony/proprietary/vendor/lib/libcam.campipe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.campipe.so \
@@ -133,7 +126,6 @@ PRODUCT_COPY_FILES += \
     vendor/mediatek/harmony/proprietary/vendor/lib/libcam.metadata.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.metadata.so \
     vendor/mediatek/harmony/proprietary/vendor/lib/libcam.metadataprovider.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.metadataprovider.so \
     vendor/mediatek/harmony/proprietary/vendor/lib/libcam.paramsmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.paramsmgr.so \
-    vendor/mediatek/harmony/proprietary/vendor/lib/libcam.sdkclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.sdkclient.so \
     vendor/mediatek/harmony/proprietary/vendor/lib/libcam.utils.sensorlistener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.utils.sensorlistener.so \
     vendor/mediatek/harmony/proprietary/vendor/lib/libcam.utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.utils.so \
     vendor/mediatek/harmony/proprietary/vendor/lib/libcam1_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam1_utils.so \
@@ -149,7 +141,6 @@ PRODUCT_COPY_FILES += \
     vendor/mediatek/harmony/proprietary/vendor/lib/libcamalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.so \
     vendor/mediatek/harmony/proprietary/vendor/lib/libcamdrv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamdrv.so \
     vendor/mediatek/harmony/proprietary/vendor/lib/libcamdrv_FrmB.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamdrv_FrmB.so \
-    vendor/mediatek/harmony/proprietary/vendor/lib/libcamera_client_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamera_client_mtk.so \
     vendor/mediatek/harmony/proprietary/vendor/lib/libcameracustom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcameracustom.so \
     vendor/mediatek/harmony/proprietary/vendor/lib/libcustom_nvram.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcustom_nvram.so \
     vendor/mediatek/harmony/proprietary/vendor/lib/libcustom_prop.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcustom_prop.so \
@@ -171,11 +162,9 @@ PRODUCT_COPY_FILES += \
     vendor/mediatek/harmony/proprietary/vendor/lib/libh264dec_xa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libh264dec_xa.ca7.so \
     vendor/mediatek/harmony/proprietary/vendor/lib/libh264dec_xb.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libh264dec_xb.ca7.so \
     vendor/mediatek/harmony/proprietary/vendor/lib/libh264enc_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libh264enc_sa.ca7.so \
-    vendor/mediatek/harmony/proprietary/vendor/lib/libhal_ipc_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhal_ipc_client.so \
     vendor/mediatek/harmony/proprietary/vendor/lib/libhwm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhwm.so \
     vendor/mediatek/harmony/proprietary/vendor/lib/libimageio.so:$(TARGET_COPY_OUT_VENDOR)/lib/libimageio.so \
     vendor/mediatek/harmony/proprietary/vendor/lib/libimageio_plat_drv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libimageio_plat_drv.so \
-    vendor/mediatek/harmony/proprietary/vendor/lib/libion.so:$(TARGET_COPY_OUT_VENDOR)/lib/libion.so \
     vendor/mediatek/harmony/proprietary/vendor/lib/libion_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libion_mtk.so \
     vendor/mediatek/harmony/proprietary/vendor/lib/libm4u.so:$(TARGET_COPY_OUT_VENDOR)/lib/libm4u.so \
     vendor/mediatek/harmony/proprietary/vendor/lib/libmhalImageCodec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmhalImageCodec.so \
@@ -183,8 +172,6 @@ PRODUCT_COPY_FILES += \
     vendor/mediatek/harmony/proprietary/vendor/lib/libmmsdkservice.feature.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmsdkservice.feature.so \
     vendor/mediatek/harmony/proprietary/vendor/lib/libmmsdkservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmsdkservice.so \
     vendor/mediatek/harmony/proprietary/vendor/lib/libmp4dec_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmp4dec_sa.ca7.so \
-    vendor/mediatek/harmony/proprietary/vendor/lib/libmpo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmpo.so \
-    vendor/mediatek/harmony/proprietary/vendor/lib/libmpoencoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmpoencoder.so \
     vendor/mediatek/harmony/proprietary/vendor/lib/libmsbc_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmsbc_mtk.so \
     vendor/mediatek/harmony/proprietary/vendor/lib/libmtcloader.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtcloader.so \
     vendor/mediatek/harmony/proprietary/vendor/lib/libmtk_drvb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtk_drvb.so \
@@ -208,7 +195,6 @@ PRODUCT_COPY_FILES += \
     vendor/mediatek/harmony/proprietary/vendor/lib/libshowlogo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libshowlogo.so \
     vendor/mediatek/harmony/proprietary/vendor/lib/libspeech_enh_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspeech_enh_lib.so \
     vendor/mediatek/harmony/proprietary/vendor/lib/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefrighthw.so \
-    vendor/mediatek/harmony/proprietary/vendor/lib/libstlport.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstlport.so \
     vendor/mediatek/harmony/proprietary/vendor/lib/libui_ext.so:$(TARGET_COPY_OUT_VENDOR)/lib/libui_ext.so \
     vendor/mediatek/harmony/proprietary/vendor/lib/libvc1dec_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvc1dec_sa.ca7.so \
     vendor/mediatek/harmony/proprietary/vendor/lib/libvcodec_cap.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvcodec_cap.so \
@@ -217,10 +203,15 @@ PRODUCT_COPY_FILES += \
     vendor/mediatek/harmony/proprietary/vendor/lib/libvcodecdrv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvcodecdrv.so \
     vendor/mediatek/harmony/proprietary/vendor/lib/libvp8dec_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvp8dec_sa.ca7.so \
     vendor/mediatek/harmony/proprietary/vendor/lib/libvp9dec_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvp9dec_sa.ca7.so \
-    vendor/mediatek/harmony/proprietary/vendor/lib/libwvdrm_L3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvdrm_L3.so \
-    vendor/mediatek/harmony/proprietary/vendor/lib/libwvm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvm.so \
-    vendor/mediatek/harmony/proprietary/vendor/lib/libzmq.so:$(TARGET_COPY_OUT_VENDOR)/lib/libzmq.so \
     vendor/mediatek/harmony/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
     vendor/mediatek/harmony/proprietary/vendor/lib/mtk-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib/mtk-ril.so \
-    vendor/mediatek/harmony/proprietary/vendor/lib/mtk-rilmd2.so:$(TARGET_COPY_OUT_VENDOR)/lib/mtk-rilmd2.so
-
+    vendor/mediatek/harmony/proprietary/vendor/lib/mtk-rilmd2.so:$(TARGET_COPY_OUT_VENDOR)/lib/mtk-rilmd2.so \
+    vendor/mediatek/harmony/proprietary/vendor/lib/drm/libdrmctaplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/drm/libdrmctaplugin.so \
+    vendor/mediatek/harmony/proprietary/vendor/lib/drm/libdrmmtkplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/drm/libdrmmtkplugin.so \
+    vendor/mediatek/harmony/proprietary/vendor/lib/libHEVCdec_sa.ca7.android.so:$(TARGET_COPY_OUT_VENDOR)/lib/libHEVCdec_sa.ca7.android.so \
+    vendor/mediatek/harmony/proprietary/vendor/lib/libmmprofile_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmprofile_jni.so \
+    vendor/mediatek/harmony/proprietary/vendor/lib/libmp4dec_sb.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmp4dec_sb.ca7.so \
+    vendor/mediatek/harmony/proprietary/vendor/lib/libmp4enc_xa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmp4enc_xa.ca7.so \
+    vendor/mediatek/harmony/proprietary/vendor/lib/libvp8dec_xa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvp8dec_xa.ca7.so \
+    vendor/mediatek/harmony/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libdrmclearkeyplugin.so \
+    vendor/mediatek/harmony/proprietary/vendor/lib/mediadrm/libmockdrmcryptoplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libmockdrmcryptoplugin.so
