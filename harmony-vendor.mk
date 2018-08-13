@@ -47,13 +47,6 @@ PRODUCT_COPY_FILES += \
     vendor/mediatek/harmony/proprietary/vendor/etc/.tp/thermal.conf:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/thermal.conf \
     vendor/mediatek/harmony/proprietary/vendor/etc/.tp/thermal.off.conf:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/thermal.off.conf \
     vendor/mediatek/harmony/proprietary/vendor/etc/audio_effects.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.conf \
-    vendor/mediatek/harmony/proprietary/vendor/etc/firmware/ROMv2_lm_patch_1_0_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/ROMv2_lm_patch_1_0_hdr.bin \
-    vendor/mediatek/harmony/proprietary/vendor/etc/firmware/ROMv2_lm_patch_1_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/ROMv2_lm_patch_1_1_hdr.bin \
-    vendor/mediatek/harmony/proprietary/vendor/etc/firmware/S_ANDRO_SFL.ini:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/S_ANDRO_SFL.ini \
-    vendor/mediatek/harmony/proprietary/vendor/etc/firmware/WIFI_RAM_CODE_6580:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/WIFI_RAM_CODE_6580 \
-    vendor/mediatek/harmony/proprietary/vendor/etc/firmware/WMT_SOC.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/WMT_SOC.cfg \
-    vendor/mediatek/harmony/proprietary/vendor/etc/firmware/catcher_filter_1_wg_n.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/catcher_filter_1_wg_n.bin \
-    vendor/mediatek/harmony/proprietary/vendor/etc/firmware/modem_1_wg_n.img:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/modem_1_wg_n.img \
     vendor/mediatek/harmony/proprietary/vendor/etc/init/conn.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/conn.rc \
     vendor/mediatek/harmony/proprietary/vendor/etc/init/emsvr.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/emsvr.rc \
     vendor/mediatek/harmony/proprietary/vendor/etc/init/fuelgauged.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fuelgauged.rc \
@@ -76,6 +69,12 @@ PRODUCT_COPY_FILES += \
     vendor/mediatek/harmony/proprietary/vendor/firmware/pcm_sodi.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/pcm_sodi.bin \
     vendor/mediatek/harmony/proprietary/vendor/firmware/pcm_suspend.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/pcm_suspend.bin \
     vendor/mediatek/harmony/proprietary/vendor/firmware/ram_patch.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/ram_patch.fw \
+    vendor/mediatek/harmony/proprietary/vendor/firmware/ROMv2_lm_patch_1_0_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ROMv2_lm_patch_1_0_hdr.bin \
+    vendor/mediatek/harmony/proprietary/vendor/firmware/ROMv2_lm_patch_1_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ROMv2_lm_patch_1_1_hdr.bin \
+    vendor/mediatek/harmony/proprietary/vendor/firmware/WIFI_RAM_CODE_6580:$(TARGET_COPY_OUT_VENDOR)/firmware/WIFI_RAM_CODE_6580 \
+    vendor/mediatek/harmony/proprietary/vendor/firmware/WMT_SOC.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/WMT_SOC.cfg \
+    vendor/mediatek/harmony/proprietary/vendor/firmware/catcher_filter_1_wg_n.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/catcher_filter_1_wg_n.bin \
+    vendor/mediatek/harmony/proprietary/vendor/firmware/modem_1_wg_n.img:$(TARGET_COPY_OUT_VENDOR)/firmware/modem_1_wg_n.img \
     vendor/mediatek/harmony/proprietary/vendor/lib/drm/libdrmwvmplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/drm/libdrmwvmplugin.so \
     vendor/mediatek/harmony/proprietary/vendor/lib/egl/egl.cfg:$(TARGET_COPY_OUT_VENDOR)/lib/egl/egl.cfg \
     vendor/mediatek/harmony/proprietary/vendor/lib/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_mali.so \
