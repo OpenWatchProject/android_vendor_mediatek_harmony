@@ -2,6 +2,3 @@ service fuelgauged /vendor/bin/fuelgauged
     class main
     user system
     group system
-
-service kpoc_charger /vendor/bin/kpoc_charger
-    class charger
