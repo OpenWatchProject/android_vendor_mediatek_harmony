@@ -84,6 +84,7 @@ PRODUCT_COPY_FILES += \
     vendor/mediatek/harmony/proprietary/vendor/lib/hw/memtrack.mt6580.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/memtrack.mt6580.so \
     vendor/mediatek/harmony/proprietary/vendor/lib/hw/sensors.vendor.mt6580.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.vendor.mt6580.so \
     vendor/mediatek/harmony/proprietary/vendor/lib/lib3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.so \
+    vendor/mediatek/harmony/proprietary/vendor/lib/libc2kutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc2kutils.so \
     vendor/mediatek/harmony/proprietary/vendor/lib/libClearMotionFW.so:$(TARGET_COPY_OUT_VENDOR)/lib/libClearMotionFW.so \
     vendor/mediatek/harmony/proprietary/vendor/lib/libJpgDecPipe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libJpgDecPipe.so \
     vendor/mediatek/harmony/proprietary/vendor/lib/libJpgEncPipe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libJpgEncPipe.so \
@@ -106,6 +107,7 @@ PRODUCT_COPY_FILES += \
     vendor/mediatek/harmony/proprietary/vendor/lib/libaudiocustparam.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiocustparam.so \
     vendor/mediatek/harmony/proprietary/vendor/lib/libaudiodcrflt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiodcrflt.so \
     vendor/mediatek/harmony/proprietary/vendor/lib/libaudiosetting.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiosetting.so \
+    vendor/mediatek/harmony/proprietary/vendor/lib/libaudiotoolkit.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiotoolkit.so \
     vendor/mediatek/harmony/proprietary/vendor/lib/libbessound_hd_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbessound_hd_mtk.so \
     vendor/mediatek/harmony/proprietary/vendor/lib/libblisrc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libblisrc.so \
     vendor/mediatek/harmony/proprietary/vendor/lib/libblisrc32.so:$(TARGET_COPY_OUT_VENDOR)/lib/libblisrc32.so \
@@ -151,6 +153,7 @@ PRODUCT_COPY_FILES += \
     vendor/mediatek/harmony/proprietary/vendor/lib/libfeatureio.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfeatureio.so \
     vendor/mediatek/harmony/proprietary/vendor/lib/libfgauge.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfgauge.so \
     vendor/mediatek/harmony/proprietary/vendor/lib/libfile_op.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfile_op.so \
+    vendor/mediatek/harmony/proprietary/vendor/lib/libfs_mgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfs_mgr.so \
     vendor/mediatek/harmony/proprietary/vendor/lib/libgas.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgas.so \
     vendor/mediatek/harmony/proprietary/vendor/lib/libged.so:$(TARGET_COPY_OUT_VENDOR)/lib/libged.so \
     vendor/mediatek/harmony/proprietary/vendor/lib/libgpu_aux.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgpu_aux.so \
@@ -172,6 +175,7 @@ PRODUCT_COPY_FILES += \
     vendor/mediatek/harmony/proprietary/vendor/lib/libmmsdkservice.feature.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmsdkservice.feature.so \
     vendor/mediatek/harmony/proprietary/vendor/lib/libmmsdkservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmsdkservice.so \
     vendor/mediatek/harmony/proprietary/vendor/lib/libmp4dec_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmp4dec_sa.ca7.so \
+    vendor/mediatek/harmony/proprietary/vendor/lib/libmrdump.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmrdump.so \
     vendor/mediatek/harmony/proprietary/vendor/lib/libmsbc_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmsbc_mtk.so \
     vendor/mediatek/harmony/proprietary/vendor/lib/libmtcloader.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtcloader.so \
     vendor/mediatek/harmony/proprietary/vendor/lib/libmtk_drvb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtk_drvb.so \
